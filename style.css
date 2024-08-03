@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+body{
+    background-image: url(./images/b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page1{
+    display: grid;
+    justify-content: center;
+    margin-top: 400px;
+    text-align: center;
+}
+.page1 h1{
+    font-size: 90px;
+    color: #CDB4DB;
+}
+.page1 p{
+    font-size: 35px;
+    color: #FFAFCC;
+    margin-top: 10px;
+}
+.page1 button{
+    font-weight: bolder;
+    width: 130px;
+    margin-left: 100px;
+    background-color: #FFAFCC;
+    color: #fff;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none #fff;
+    margin-top: 30px;
+}
+button:hover{
+    box-shadow: 2px 3px 3px 3px #CDB4DB;
+}
